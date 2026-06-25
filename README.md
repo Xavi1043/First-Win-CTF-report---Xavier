@@ -27,8 +27,6 @@ No endpoint or network telemetry was in scope; analysis was limited to the email
 
 **IOC Domain:** `pashter[.]com` — attacker reply-to / contact (`negeja3921@pashter[.]com`)
 
-**Probable C2 Domain:** `<FILL IN — recovered from Money.xlsx>` — probable C2 (no observed callback)
-
 **Possible Malware Family:** Suspected malicious attachment (unconfirmed) — no execution/payload analysis performed
 
 ### Artifacts (SHA-256)
