@@ -30,8 +30,11 @@ Findings
 
 Time: Mon, 25 Jan 2021 22:41:18 -0800 (PST)
 Host : N/A , no endpoint
+
 IOC Domain : pashter.com (negeja3921@pashter.com)
+
 Possible Malware Family : Suspected malicious attachment 
+
 Filename : PuzzleToCoCanDa.zip
 
 Path :  C:\Users\Xavie\Desktop\SOC practice\PuzzleToCoCanDa.zip
