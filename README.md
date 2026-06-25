@@ -28,16 +28,23 @@ probable only.
 
 Findings
 
-FieldValueTimeMon, 25 Jan 2021 22:41:18 -0800 (PST)  ·  (= 2021-01-26 06:41:18 UTC)HostN/A — no endpoint/network telemetry in scopeSpoofed sender domainmicroapple[.]com — forged From; SPF returned failReply-to / contact domainpashter[.]com — attacker contact (negeja3921@pashter[.]com)Probable C2 domain<FILL IN — recovered from Money.xlsx> — probable C2 (no observed callback; no payload analysis)Origin sending IP93.99.104.210 — originating mail server (resolves to emkei[.]cz, a free anonymous mailer)Possible Malware FamilySuspected malicious attachment (unconfirmed) — no execution/payload analysis performed
+Time: Mon, 25 Jan 2021 22:41:18 -0800 (PST)
+Host : N/A , no endpoint
+IOC Domain : pashter.com (negeja3921@pashter.com)
+Possible Malware Family : Suspected malicious attachment 
+Filename : PuzzleToCoCanDa.zip
 
-File Artifacts (SHA-256)
+Path :  C:\Users\Xavie\Desktop\SOC practice\PuzzleToCoCanDa.zip
+Hash : 677F41150FCFC0BEE3589BF08302ABDFD0ACD1268F7A08C4A5FEECFEB48E5B14
 
-FileRoleSHA-256PuzzleToCoCanDa.zipDelivered attachment (claimed .pdf, actually ZIP)677F41150FCFC0BEE3589BF08302ABDFD0ACD1268F7A08C4A5FEECFEB48E5B14Money.xlsxEmbedded artifact (contained probable C2 indicator)59D993FCA50A7FE32D9D0271FA4850D63121411661A3A131B3B0809677D898ABGoodJobMajor.pdfEmbedded artifact (ransom proof; author metadata)FF61467A025529020B55685DF1102B44E28310AA79CD3EF2EA6A93AF9477480BDaughtersCrown.jpgEmbedded artifact (image of a crown)B2A4346FAC4B23C85B8E103655DFDEFC4384586AA123F0E60D447E976EA1475F
+Path : C:\Users\Xavie\Desktop\SOC practice\PuzzleToCoCanDa\DaughtersCrown.jpg
+Hash : B2A4346FAC4B23C85B8E103655DFDEFC4384586AA123F0E60D447E976EA1475F
 
+Path : C:\Users\Xavie\Desktop\SOC practice\PuzzleToCoCanDa\GoodJobMajor.pdf
+Hash : FF61467A025529020B55685DF1102B44E28310AA79CD3EF2EA6A93AF9477480B
 
-The PuzzleToCoCanDa.zip hash was computed from the attachment as delivered in
-the source .eml, which is the authoritative (original) version of the artifact.
-
+Path : C:\Users\Xavie\Desktop\SOC practice\PuzzleToCoCanDa\Money.xlsx
+Hash : 59D993FCA50A7FE32D9D0271FA4850D63121411661A3A131B3B0809677D898AB
 
 
 
