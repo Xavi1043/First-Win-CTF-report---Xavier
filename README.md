@@ -38,7 +38,7 @@ No endpoint or network telemetry was in scope; analysis was limited to the email
 | `PuzzleToCoCanDa.zip` | Delivered attachment (claimed `.pdf`, actually ZIP) | `677F41150FCFC0BEE3589BF08302ABDFD0ACD1268F7A08C4A5FEECFEB48E5B14` |
 | `DaughtersCrown.jpg` | Embedded — image of a crown | `B2A4346FAC4B23C85B8E103655DFDEFC4384586AA123F0E60D447E976EA1475F` |
 | `GoodJobMajor.pdf` | Embedded — ransom proof; author metadata | `FF61467A025529020B55685DF1102B44E28310AA79CD3EF2EA6A93AF9477480B` |
-| `Money.xlsx` | Embedded — contained probable C2 indicator | `59D993FCA50A7FE32D9D0271FA4850D63121411661A3A131B3B0809677D898AB` |
+| `Money.xlsx` | Embedded — spreadsheet with location | `59D993FCA50A7FE32D9D0271FA4850D63121411661A3A131B3B0809677D898AB` |
 
 > The `PuzzleToCoCanDa.zip` hash was computed from the attachment **as delivered in the source `.eml`** — the authoritative (original) version of the artifact.
 
